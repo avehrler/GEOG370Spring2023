@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projections</title>
+    <title> HW 3: Projections</title>
 </head>
 <body>
     <h1>In this project I learned how to display images in different projections</h1>
     
-    <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <h2 style="color:red">In QGIS, after applying the Indicatrix layer, I changed the ESRG according to the requirements.</h2>
+    <p>When projecting the spherical, or even not spherical, Earth onto a flat surface to make a map, distortion is inevitable. Several different
+features can be distorted in tandem or individual elements can be lost. Conformal maps preserve shape, equal-area maps preserve area, equidistant
+maps retain distance, and true-direction map preserves directions or azimuths of great circle arcs. 
+    </p>
     
     <h2>WGS84 Projection</h2>
     <h3>This projection style preserves shape, but not area</h3>
@@ -17,7 +20,7 @@
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>Shape, direction, distance, and area are all distorted, except in the central meridian.  </h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
@@ -35,6 +38,11 @@
 <h3>Some observations</h3>
 <a href="./maps/53018.png">
 <img src="./maps/53018.png" alt="Sphere Winkel" width='500px'>
+</a>
+<h2>World Cylindrical Equal Area (54034)</h2>
+<h3>Some observations</h3>
+<a href="./maps/54030.png">
+<img src="./maps/54030.png" alt="World Cylindrical Equal Area" width='500px'>
 </a>
     <h3>EPSG: 54034, 54027, 102016, and two additional projections that you choose.</h3>
     <p></p>
