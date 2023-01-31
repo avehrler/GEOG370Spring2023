@@ -15,7 +15,7 @@ maps retain distance, and true-direction map preserves directions or azimuths of
     </p>
     
     <h2>WGS84 Projection</h2>
-    <h3>This projection style preserves shape, but not area</h3>
+    <h3>This projection style preserves shape and area along the equator, but not north or south.</h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
@@ -25,42 +25,47 @@ maps retain distance, and true-direction map preserves directions or azimuths of
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
     <h2>World Robinson Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection preserves shape and area only around the equator, it distorts shape just north and south of the equator,
+        but preserves are, and then north and south of this it has heavy distortion of shape and area.
+    </h3>
     <a href="./maps/World Robinson 54030.png">
     <img src="./maps/World Robinson 54030.png" alt="World Robinson" width='500px'>
     </a>
     <h2>Pseudo Mercator Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection preserves shape and area around the equator and just north and south of it, 
+        but further than that there is a lot of distortion of area. </h3>
     <a href="./maps/Pseudo-Mercator 3857.png">
     <img src="./maps/Pseudo-Mercator 3857.png" alt="Pseudo Mercator" width='500px'>
     </a>
 <h2>Sphere Winkel Projection</h2>
-<h3>Some observations</h3>
+<h3>This one is very similar to the World Robinson, with preservation of are and shape near the equator but heavy distortion as you go further north and south.</h3>
 <a href="./maps/Sphere Winkel 53018.png">
 <img src="./maps/Sphere Winkel 53018.png" alt="Sphere Winkel" width='500px'>
 </a>
 <h2>World Cylindrical Equal Area Projection</h2>
-<h3>Some observations</h3>
+<h3>Like the Sphere Winkel and the World Robinson projections, this projection preserves area and shape closer to the equator but is 
+    distorted in area and shape north and south. </h3>
 <a href="./maps/World Cylindrical Equal Area 54034.png">
 <img src="./maps/World Cylindrical Equal Area 54034.png" alt="World Cylindrical Equal Area" width='500px'>
 </a>
 <h2>World Equidistant Conic Projection</h2>
-<h3>Some observations</h3>
+<h3>This projection preserves shape and area closest to the North Pole. It is distorted in shape and area as it moves outward, and preserves distance. </h3>
 <a href="./maps/World Equidistant Conic 54027.png">
 <img src="./maps/World Equidistant Conic 54027.png" alt="World Equidistant Conic Projection" width='500px'>
 </a>
 <h2>North Pole Azimuthal Equidistant Projection</h2>
-<h3>Some observations</h3>
+<h3>This projection preserves distance a bit better than the World Equidistant Conic Projection, and preserves shape and area best at the North Pole. </h3>
 <a href="./maps/North Pole Athizumal Equidistant 102016.png">
 <img src="./maps/North Pole Athizumal Equidistant 102016.png" alt="North Pole Azimuthal Equidistant" width='500px'>
 </a>
 <h2>USN National Atlas Equal Area Projection</h2>
-<h3>Some observations</h3>
+<h3>This projection only shows the Western Hemisphere and Northern Hemisphere best, preserving shape and area mostly at the North Pole and in the 
+    Americas. distortion in distance and shape and area is heavy for the Eastern Hemispere. </h3>
 <a href="./maps/USN National Atlas Equal Area 2163.png">
 <img src="./maps/USN National Atlas Equal Area 2163.png" alt="USN National Atlas Equal Area" width='500px'>
 </a>
 <h2>Indian 1975 Projection</h2>
-<h3>Some observations</h3>
+<h3>This projection preserves area and shape best in the latitude of the Indian Ocean and around it, with distortions of shape and area as you move outward from this plane. </h3>
 <a href="./maps/Indian 1975 4240.png">
 <img src="./maps/Indian 1975 4240.png" alt="Indian 1975" width='500px'>
 </a>
